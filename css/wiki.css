@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #ffd1dc;
+	z-index: 2;
+	position: relative;
+}
+header .container {
+	position: relative;
+}
+header #logotipo {
+	position: absolute;
+	top: 10px;
+	left: -10px;
+	z-index: 3;
+}
+/*Id não se repete então pode pôr o # direto*/
+#menu li{
+	display: inline-block;
+	font-family: 'Open_Sans';
+}
+#menu {
+	margin-right: 50px;
+	margin-top: 50px;
+}
+#menu li a{
+	color: #FFFFFF;
+	font-size: 30px;
+	/*padding: margem interna
+	padding: (top e bottom)	 (left right)*/
+	padding: 10px 25px;
+}
+
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	background-size: cover;
+	background-position: 0px -100px;
+    top: -130px;
+}
+#banner h1 {
+	transition: 3s;
+	color: #fff;
+	top: 300px;
+	position: absolute;
+	font-size: 92px; 
+	text-shadow: 2px 2px 2px rgba(0,0,0,.45);
+	font-family: OpenSans-Light;
+	margin-left: 50px; 
+}
+#banner h1 small{
+	font-size: 32px; 
+	/*jogar ele pra baixo*/
+	display: block;
+	color: #fff;
+	font-family: OpenSans;
+	font-weight: bold;
+}
+
+body section {
+	margin-top: 100px;
+}
+
+table {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+table caption {
+	border: 1px solid black;
+	border-bottom: 0px;
+	text-align: center;
+	padding: 15px 10px;
+}
+table td {
+	padding: 10px;
+	background-color: #ffebef;
+}
+
+/*muda isso dps pelo amor de deus*/
+h1 {
+	font-size: 27px;
+}
+
+footer {
+	margin-top: 110px;
+}
+footer .row {
+	width: 100%;
+	margin-left: 0;
+}
+footer .row p {
+	line-height: 55px;
+	margin-bottom: 0;
+}
+footer .row-rosa-claro {
+	height: 200px;
+	background-color: #ffb8c9;
+}
+footer .row-rosa-escuro {
+	height: 60px;
+	background-color: #ff9eb5;
+	border-top: #242D37 1px solid;
+}
+footer .text-green {
+	color: #d1fff4;
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 14px;
+	float: right
+}
+footer .text-green-copy {
+	color: #d1fff4;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+}
+footer .logotipo {
+	margin-top: 12px;
+}
+footer .col-popular-posts, .col-links, .col-get-in-touch {
+	margin-top: 40px;
+}
+footer .row-cols h4 {
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 7px;
+	border-bottom: #242D37 1px solid;
+	text-transform: uppercase;
+}
+footer .row-cols h5 {
+	color: #666;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: #FDE092;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-links a {
+	color: #FFF;
+	font-family: Arial;
+	font-size: 14px;
+}
+footer .col-get-in-touch address {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+footer .col-get-in-touch address span {
+	display: inline-block;
+	margin-left: 5px;
+}
+footer .col-get-in-touch address i {
+	position: relative;
+	top: -14px;
+}
+footer .col-get-in-touch i {
+	color: #fff;
+	font-size: 20px;
+	margin: 0 6px;
+}
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
+footer .col-get-in-touch a {
+	color: #666;
+}
+footer .list-sociais {
+	margin-top: 4px;
+	margin-left: 10px; 
+}
+footer .list-sociais li {
+	display: inline-block;
+	margin-right: 8px;
+	margin-top: 8px; 
+}
+footer .list-sociais a {
+	display: block;
+	border: #9B9B9B 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;
+}
+footer .list-sociais i {
+	font-size: 16px;
+	margin: 2px 2px;
+}
