@@ -10,64 +10,26 @@
 }
 header {
 	width: 100%;
-	height: 150px;
 	background-color: #ffd1dc;
-	z-index: 2;
-	position: relative;
 }
-header .container {
-	position: relative;
+header .logotipo {
+	margin-top: 15px;
 }
-header #logotipo {
-	position: absolute;
-	top: 10px;
-	left: -10px;
-	z-index: 3;
+header span {
+	display: block;
+	margin-top: 50px;
 }
-/*Id não se repete então pode pôr o # direto*/
-#menu li{
+header span a{
 	display: inline-block;
 	font-family: 'Open_Sans';
 }
-#menu {
-	margin-right: 50px;
-	margin-top: 50px;
-}
-#menu li a{
+header span a u {
+	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 30px;
-	/*padding: margem interna
-	padding: (top e bottom)	 (left right)*/
 	padding: 10px 25px;
 }
 
-#banner {
-	width: 100%;
-	height: 728px;
-	position: relative;
-	background: url("../img/banner.jpg") no-repeat;
-	background-size: cover;
-	background-position: 0px -100px;
-    top: -130px;
-}
-#banner h1 {
-	transition: 3s;
-	color: #fff;
-	top: 300px;
-	position: absolute;
-	font-size: 92px; 
-	text-shadow: 2px 2px 2px rgba(0,0,0,.45);
-	font-family: OpenSans-Light;
-	margin-left: 50px; 
-}
-#banner h1 small{
-	font-size: 32px; 
-	/*jogar ele pra baixo*/
-	display: block;
-	color: #fff;
-	font-family: OpenSans;
-	font-weight: bold;
-}
 
 body section {
 	margin-top: 100px;
@@ -88,111 +50,52 @@ table td {
 	background-color: #ffebef;
 }
 
-/*muda isso dps pelo amor de deus*/
 h1 {
 	font-size: 27px;
 }
 
-footer {
-	margin-top: 110px;
-}
-footer .row {
+footer .linha-rosa-claro {	
+	background-color: #ffb8c9;
 	width: 100%;
 	margin-left: 0;
 }
-footer .row p {
-	line-height: 55px;
-	margin-bottom: 0;
-}
-footer .row-rosa-claro {
-	height: 200px;
-	background-color: #ffb8c9;
-}
-footer .row-rosa-escuro {
-	height: 60px;
+
+footer .linha-rosa-escuro {
+	position: absolute;
 	background-color: #ff9eb5;
 	border-top: #242D37 1px solid;
+	width: 100%;
+	margin-left: 0;
 }
 footer .text-green {
 	color: #d1fff4;
 	font-family: OpenSans;
 	font-weight: bold;
 	font-size: 14px;
-	float: right
 }
 footer .text-green-copy {
 	color: #d1fff4;
 	font-family: OpenSans;
 	font-size: 14px;
 	font-weight: bold;
-	float: left;
 }
 footer .logotipo {
-	margin-top: 12px;
+	margin: 15px;
 }
-footer .col-popular-posts, .col-links, .col-get-in-touch {
-	margin-top: 40px;
-}
-footer .row-cols h4 {
-	font-family: OpenSans;
-	font-weight: bold;
-	font-size: 14px;
-	color: #fff;
-	padding-bottom: 7px;
-	border-bottom: #242D37 1px solid;
-	text-transform: uppercase;
-}
-footer .row-cols h5 {
-	color: #666;
-	font-family: Arial;
-	font-size: 14px;
-	margin-bottom: 0;
-}
-footer .row-cols time {
-	color: #FDE092;
-	font-family: Arial;
-	font-size: 14px;
-}
-footer .col-links a {
-	color: #FFF;
-	font-family: Arial;
-	font-size: 14px;
-}
-footer .col-get-in-touch address {
-	color: #666;
-	font-size: 14px;
-	margin-bottom: 6px;
-}
-footer .col-get-in-touch address span {
-	display: inline-block;
-	margin-left: 5px;
-}
-footer .col-get-in-touch address i {
-	position: relative;
-	top: -14px;
-}
-footer .col-get-in-touch i {
-	color: #fff;
-	font-size: 20px;
-	margin: 0 6px;
-}
-footer .col-get-in-touch p {
-	line-height: 20px;
-}
-footer .col-get-in-touch a {
-	color: #666;
+footer .col-get-in-touch {
+	padding: 35px 0px;
 }
 footer .list-sociais {
 	margin-top: 4px;
 	margin-left: 10px; 
 }
-footer .list-sociais li {
-	display: inline-block;
+footer .list-sociais span {
+	display: block;
 	margin-right: 8px;
 	margin-top: 8px; 
 }
 footer .list-sociais a {
-	display: block;
+	display: inline-block;
 	border: #9B9B9B 1px solid;
 	width: 28px;
 	height: 28px;
@@ -201,6 +104,7 @@ footer .list-sociais a {
 	text-align: center;
 }
 footer .list-sociais i {
+	color: #fff;
 	font-size: 16px;
 	margin: 2px 2px;
 }

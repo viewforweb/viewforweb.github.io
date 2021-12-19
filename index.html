@@ -11,21 +11,27 @@
 	<body>
 
 		<header>
-			
+
 			<div class="container">
-				<img id="logotipo" src="img/placeholder.png" alt="Logotipo">
-			</div>
-				
-				<div>
-					<nav id="menu" class="pull-right">
-						<ul>
-							<li><a href="#"><u>Lorem</u></a></li>
-							<li><a href="#"><u>Lorem</u></a></li>
-							<li><a href="#"><u>Lorem</u></a></li>
-						</ul>
-					</nav>
-				</div>			
-		
+
+				<div class="row">
+					
+					<div class="col-lg-6 text-center">
+						<img class="logotipo" src="img/placeholder.png" alt="Logotipo">
+					</div>																					
+															
+							<div class="col-lg-6 text-center">																		
+																		
+								<span id="menu">
+									<a href="#"><u>Lorem</u></a>
+									<a href="#"><u>Lorem</u></a>
+									<a href="#"><u>Lorem</u></a>
+								</span>
+			
+								</div>
+
+							</div>	
+
 		</header>
 	
 		<!--Container pra centralizar primeira descirção e aside da wiki-->
@@ -107,136 +113,76 @@
 		
 		<div class="collapse" id="info3">		
 		<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-		</div>
+		<hr>	
+	</div>
 		
+		
+
 	</section>
 
+	
 	
 	<!--Inicio footer-->
 
 		<footer>
 			
-				<div class="row row-rosa-claro">
+				<div class="linha-rosa-claro" style="box-shadow: 8px 7px 8px 2px rgba(0,0,0,0.2);">
 					
 					<div class="container">
-						
+
 						<div class="row">
 							
-							<div class="col-md-2 text-center">
+							<div class="col-lg-6 text-center">
 								
 								<img class="logotipo" src="img/placeholder.png" alt="Logotipo">
 
-							</div>
-							<div class="col-md-10">
-								
-								<div class="row row-cols">
-									
-									<div class="col-md-4 col-popular-posts">
-										
-										<h4>Lorem Ipsum</h4>
-										<ul class="list-unstyled">
-											<li>
-												<h5>Neque porro quisquam est, quister.</h5>
-												<time>January 01, 2016</time>
-											</li>
-											<li>
-												<h5>Neque porro quisquam est, quister.</h5>
-												<time>January 01, 2016</time>
-											</li>
-										</ul>
-
-									</div>
-									<div class="col-md-4 col-links">
-										
-										<h4>Links</h4>
-										<ul class="list-unstyled">
-											<li><a href="#"><i class="fas fa-angle-right"></i> Lorem</li></a>
-											<li><a href="#"><i class="fas fa-angle-right"></i> Lorem</li></a>
-											<li><a href="#"><i class="fas fa-angle-right"></i> Lorem</li></a>
-										</ul>
-
-									</div>
-									<div class="col-md-4 col-get-in-touch">
-										
-										<h4>Lorem</h4>
-										<address>
-											<i class="fa fa-map-marker"></i>
-											<span>Adress<br>
-											Adress</span>
-										</address>
-
-										<p><a href="#"><i class="fa fa-phone-alt"></i> Phone</a></p>
+							</div>																				
+																	
+									<div class="col-lg-6 col-get-in-touch text-center">																		
+																				
+										<span class="list-unstyled list-sociais">									
 											
-										<ul class="list-unstyled list-sociais">
+											<h4>Social Media</h4>
+
+												<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>											
 											
-											<li>
-												<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-											</li>
-											<li>
-												<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-											</li>
-											<li>
-												<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-											</li>
-											<li>
-												<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-											</li>
+												<a href="#" target="_blank"><i class="fa fa-twitter"></i></a>											
+											
+												<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>											
+											
+												<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>											
 
-										</ul>
+										</span>
 
-									</div>
-
-								</div>
-
-							</div>
-
-						</div>
+									</div>						
 
 					</div>	
 
-				</div>	
+				</div>
 
-				<div class="row row-rosa-escuro">
+				</div>	
+				
+				<div class="linha-rosa-escuro">
 					
 					<div class="container">
 
+						<div class="col-lg-6 text-center">
 						<p class="text-green-copy">Copyright © Lorem. All rights reserved.</p>
+						</div>
+						
+						<div class="col-lg-6 text-center">
 						<p class="text-green">Created by Lorem</p>
+						</div>
 
-					</div>
+				</div>
 
 				</div>	
+				
 
 		</footer>
 
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<script>
-			$(document).ready(function(){
-
-					$("#logotipo").on("mouseover",function(){
-						/*$("#banner h1").css("color","red"); -> mudar um item só*/
-						/*	$("#banner h1").css(
-							{"color":"red", "font-size":"120px","transition":"3s" });
-						* -> mudar mais de um item*/
-						
-						$("#banner h1").addClass("efeito");
-						/*Mudar add class*/
-						
-				}).on("mouseout",function(){
-
-						$("#banner h1").removeClass("efeito");
-
-				});
-
-				$("#busca").on("focus",function(){
-					$("#busca").css("width","300px");
-				}).on("blur",function(){
-					$("#busca").css("width","100%");
-				})
-
-			})
-		</script>
 
 	</body>
 </html>
